@@ -75,16 +75,17 @@ const Projects = () => {
                 </div>
 
                 {/* CTA Button */}
-                {project.name === 'RestoBite' ? (
+                {project.name.trim() === 'Trefix' ? (
                   <a 
                     href="https://trefix.vercel.app/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block w-full bg-accent text-dark font-medium py-2 rounded-lg hover:bg-accent/90 transition-colors duration-200 text-center"
+                    onClick={(e) => { console.log('Trefix clicked'); }}
                   >
                     Live Preview
                   </a>
-                ) : project.name === 'Pixel Perfect Studio' ? (
+                ) : project.name.trim() === 'Pixel Perfect Studio' ? (
                   <a 
                     href="https://dilshad-fotography.vercel.app" 
                     target="_blank" 
