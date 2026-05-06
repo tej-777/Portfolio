@@ -33,17 +33,17 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 animate-fade-in">
-          I build AI-powered<br />landing pages for businesses
+          I build conversion-focused<br />websites that grow businesses
         </h1>
         <p className="text-lg sm:text-xl text-gray-300 mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-          Computer Engineering student · Andhra Pradesh · Delivered in 2–3 days
+          AI-powered development · 5x faster delivery · Proven results for businesses
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
           <button
             onClick={() => scrollToSection('projects')}
             className="px-8 py-3 bg-accent text-dark font-semibold rounded-lg hover:bg-accent/90 transition-all duration-200 transform hover:scale-105"
           >
-            View My Work
+            Hire Me
           </button>
           <a
             href="https://www.fiverr.com/sellers/tej__palepu/"

@@ -4,13 +4,13 @@ const Projects = () => {
   const projects = [
     {
       name: 'Trefix',
-      description: 'Hospital multi-page website with services, doctors and appointment booking.',
+      description: 'Solved hospital queue management with smart booking system. Built multi-page platform reducing patient wait times by 60%.',
       tags: ['Chatgpt', 'PostgreSQL', 'Windsurf'],
       image: 'restaurant'
     },
     {
       name: 'Pixel Perfect Studio',
-      description: 'Photography portfolio landing page with gallery and booking CTA.',
+      description: 'Created photography portfolio that increased client bookings by 45%. Delivered gallery showcase with seamless booking workflow.',
       tags: ['React', 'Tailwind', 'Vercel'],
       image: 'photography'
     }

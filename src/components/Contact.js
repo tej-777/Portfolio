@@ -159,6 +159,17 @@ const Contact = () => {
                   <span className="font-semibold text-accent">Fast Response:</span> I typically respond within 24 hours for all inquiries.
                 </p>
               </div>
+
+              <div className="mt-6 text-center">
+                <a
+                  href="https://www.fiverr.com/sellers/tej__palepu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-8 py-3 bg-accent text-dark font-semibold rounded-lg hover:bg-accent/90 transition-all duration-200 transform hover:scale-105"
+                >
+                  Work With Me
+                </a>
+              </div>
             </div>
           </div>
         </div>

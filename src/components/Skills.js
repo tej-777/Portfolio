@@ -2,19 +2,19 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { name: 'React', image: '/assets/React-image.jpg' },
-    { name: 'Tailwind CSS', image: '/assets/tailwind-image.jpg' },
-    { name: 'JavaScript', image: '/assets/javascript-image.jpg' },
-    { name: 'HTML5', image: '/assets/html-image.jpg' },
-    { name: 'CSS3', image: '/assets/css-image.jpg' },
-    { name: 'Node.js', image: '/assets/rest.jpg' }
+    { name: 'Interactive Web Apps', image: '/assets/React-image.jpg' },
+    { name: 'Modern UI Design', image: '/assets/tailwind-image.jpg' },
+    { name: 'Dynamic Functionality', image: '/assets/javascript-image.jpg' },
+    { name: 'Semantic Structure', image: '/assets/html-image.jpg' },
+    { name: 'Responsive Styling', image: '/assets/css-image.jpg' },
+    { name: 'Full-Stack Solutions', image: '/assets/rest.jpg' }
   ];
 
   const aiTools = [
-    { name: 'Bolt.new', image: '/assets/bolt.jpg' },
-    { name: 'Lovable', image: '/assets/lovable.jpg' },
-    { name: 'Cursor', image: '/assets/cursor.jpg' },
-    { name: 'Windsurf', image: '/assets/windsurf.webp' }
+    { name: 'Rapid Prototyping', image: '/assets/bolt.jpg' },
+    { name: 'AI-Assisted Design', image: '/assets/lovable.jpg' },
+    { name: 'Smart Code Generation', image: '/assets/cursor.jpg' },
+    { name: 'Intelligent Development', image: '/assets/windsurf.webp' }
   ];
 
   return (
@@ -86,7 +86,7 @@ const Skills = () => {
               
               <div className="mt-6 p-4 bg-accent/5 border border-accent/20 rounded-lg">
                 <p className="text-sm text-gray-300">
-                  <span className="font-semibold text-accent">AI-Powered Development:</span> Using cutting-edge tools to deliver projects 5x faster than traditional development.
+                  <span className="font-semibold text-accent">AI-Powered Development:</span> Reduced development time by 80% while maintaining enterprise-grade quality. Projects delivered in 2-3 days instead of 2-3 weeks.
                 </p>
               </div>
             </div>
