@@ -13,12 +13,6 @@ const Projects = () => {
       description: 'Photography portfolio landing page with gallery and booking CTA.',
       tags: ['React', 'Tailwind', 'Vercel'],
       image: 'photography'
-    },
-    {
-      name: 'CoachPro',
-      description: 'Online coaching landing page with pricing, testimonials and signup form.',
-      tags: ['Cursor', 'React', 'Vercel'],
-      image: 'coaching'
     }
   ];
 
@@ -34,7 +28,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
